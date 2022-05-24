@@ -5,11 +5,11 @@
 
 .text{
     position: relative;
-    top: 400px;
+    top: 410px;
     left: 680px;
 }
 
-.red {
+.red{
     width: 100px;
     height: 100px;
     background-color: red;
@@ -19,6 +19,7 @@
     animation-name: redpos;
     animation-duration: 2s;
     animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
 
 .yellow {
@@ -30,6 +31,8 @@
     left: 700px;
     animation-name: yellowpos;
     animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
 
 .green {
@@ -41,6 +44,8 @@
     left: 700px;
     animation-name: greenpos;
     animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
 
 .blue {
@@ -52,8 +57,10 @@
     left: 600px;
     animation-name: bluepos;
     animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
-
+    
 @keyframes redpos {
     to {
         left: 500px;
@@ -61,10 +68,11 @@
     }
 }
 
+
 @keyframes yellowpos {
     to {
         left: 800px;
-        transform: rotate(90deg);
+        transform: rotate(-90deg);
 
     }
 }
@@ -72,7 +80,7 @@
 @keyframes bluepos {
     to {
         left: 500px;
-        transform: rotate(90deg);
+        transform: rotate(-90deg);
     }
 }
 
@@ -83,6 +91,3 @@
     }
 }
 
-.main:hover {
-    animation-play-state: running;
-}
