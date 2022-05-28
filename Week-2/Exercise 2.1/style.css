@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+.main {
+    width: 100%;
+    background-color: #01004D;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    position: relative;
+    left: -150px;
+    float: left;
+    padding-top: 25px;
+}
+
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul {
+    display: flex;
+    float: left;
+}
+
+ul li{
+    position: relative;
+    list-style: none;
+    left: 70%;
+    top: -35px;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    width: 1900px;
+    font-size: 18px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: orange;
+}
+
+.content {
+    width: 1200px;
+    height: auto;
+    margin: 35px;
+    color: white;
+    position: relative;
+}
+
+.content .par {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 8%;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+.content span{
+    color: orange;
+    font-size: 50px;
+}
+
+.content img{
+    position: relative;
+    right: -800px;
+    top: -400px;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 20px;
+    width: 700px;
+    height: 400px;
+}
+
+.art h2{
+    color: black;
+    position: relative;
+    top: -330px;
+    left: 27%;
+    font-size: 30px;
+    align-items: center;
+    color: #01004D;
+}
+
+.art p{
+    width: 45%;
+    position: relative;
+    margin-left: 35px;
+    top: -300px;
+    letter-spacing: 1.2px;
+}
+
+.art img{
+    position: relative;
+    width: 40%;
+    height: auto;
+    top: -270px;
+    margin-left: 20px;
+}
+
+.art .par2{
+    position: relative;
+    width: 45%;
+    left: 800px;
+    top: -930px;
+}
+
+.art .hed3{
+    position: relative;
+    width: 50%;
+    left: 835px;
+    top: -930px;
+    font-weight: bolder;
+    color: #01004D;
+}
+
+.art .par3{
+    position: relative;
+    width: 45%;
+    left: 800px;
+    top: -910px;
+}
+
+.art .hed4{
+    position: relative;
+    width: 50%;
+    left: 835px;
+    top: -860px;
+    font-weight: bolder;
+    color: #01004D;
+}
+
+.art .par4{
+    position: relative;
+    width: 45%;
+    left: 800px;
+    top: -840px;
+}
+
+.art .formhed{
+    position: relative;
+    top: -780px;
+    left: 500px;
+}
+
+.formreg {
+    position: relative;
+    top: -750px;
+    left: 500px;
+    letter-spacing: 2px;
+}
+
+.submitbtn {
+    width: 70px;
+    height: 30px;
+    background-color: #01004D;
+    color: white;
+    border-radius: 10px;
+    transition-duration: 0.7s;
+}
+
+.submitbtn:hover {
+    background-color: orange;
+    cursor: pointer;
+    transition: 0.4s ease ease-in-out;
+}
+
+.formreg {
+    box-sizing: none;
+    width: 85%;
+}
+
+.formreg input{
+    box-sizing: none;
+    padding: 2px;
+    padding-right: 20px;
+    margin: 1px;
+    
+}
