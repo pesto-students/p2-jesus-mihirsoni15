@@ -1,24 +1,25 @@
 function createStack() {
-    return {
-        items: 0;
-        push(item){
-            this.items.push(item);
-        }
-        pop() {
-            return this.items.pop();
-        }
-    };
+  let items = [];
+  return {
+    push(item) {
+      items.push(item);
+    },
+    pop() {
+      return items.pop();
+    },
+  };
 }
+console.log(this); // Global Obj Ref
 const stack = createStack();
-stack.push(10);
-stack.push(5);
-stack.pop();
-stack.items;
-stack.items=[10,100,1000];
 
-function createStack();
 stack.push(10);
+
 stack.push(5);
-stack.pop();
-stack.items;
-stack.items
+// console.log(this)
+// console.log(stack)
+
+stack.pop(); // => 5
+console.log(stack.items); // => [10]
+stack.items = [10, 100, 1000]; // Encapsulation broken!
+console.log(stack.items);
+console.log(stack);
