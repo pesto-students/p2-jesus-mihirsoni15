@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.text{
+    position: relative;
+    top: 410px;
+    left: 680px;
+}
+
+.red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    top: 300px;
+    left: 600px;
+    animation-name: redpos;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.yellow {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: relative;
+    top: 200px;
+    left: 700px;
+    animation-name: yellowpos;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.green {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    top: 100px;
+    left: 700px;
+    animation-name: greenpos;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.blue {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    top: 200px;
+    left: 600px;
+    animation-name: bluepos;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+    
+@keyframes redpos {
+    to {
+        left: 500px;
+        transform: rotate(90deg);
+    }
+}
+
+
+@keyframes yellowpos {
+    to {
+        left: 800px;
+        transform: rotate(-90deg);
+
+    }
+}
+
+@keyframes bluepos {
+    to {
+        left: 500px;
+        transform: rotate(-90deg);
+    }
+}
+
+@keyframes greenpos {
+    to {
+        left: 800px;
+        transform: rotate(90deg);
+    }
+}
+
